@@ -8,5 +8,5 @@ int main(){
 	scanf("%d%d",&num1,&num2);
 	res=gcd(num1,num2);
 	printf("\nGCD of %d and %d is : %d\n",num1,num2,res);
-	return 0;
+	return gcd;
 }
