@@ -11,10 +11,10 @@ void move(int n,char src,char dest,char spare){
 	}
 }
 
-int main(){
+void main(){
 	int num;
 	printf("\nEnter the number of disks : ");
 	scanf("%d",&num);
 	move(num,'A','C','B');
-	return 0;
+	
 }
