@@ -1,8 +1,14 @@
 #include<stdio.h>
-int main() {
-	
-	int arr[]={1,2,3,4,5}; 
-	//Declare a pointer ptr of type int
-	printf("\n Address of array = %p %p %p %p", arr, &arr[0], &arr,* p+2);
-	return arr;
-} 
+void display(int age1, int age2)
+{
+    printf("%d\n", age1);
+    printf("%d\n", age2);
+}
+int main()
+{
+    int ageArray[] = {2, 8, 4, 12};
+    // Passing second and third elements to display()
+    display(ageArray[1], ageArray[2]); 
+    return 0;
+}
+
