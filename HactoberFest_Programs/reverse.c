@@ -30,4 +30,5 @@ int main(){
 		printf("\nNot Palindrome");
 	}
 	}while(str!="end");
+	return 0;
 }	
